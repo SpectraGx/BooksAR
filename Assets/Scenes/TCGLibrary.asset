@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: TCGLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5709564561047201719
+  m_GuidHigh: 10588922902113499799
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4913504683772643950
+      m_GuidHigh: 1911127837958152618
+    m_SerializedTextureGuid:
+      m_GuidLow: 546259995003945362
+      m_GuidHigh: 178220871758609656
+    m_Size: {x: 0.165, y: 0.2428703}
+    m_SpecifySize: 1
+    m_Name: Biblioteca
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5208437163582447360
+      m_GuidHigh: 1367321093096472449
+    m_SerializedTextureGuid:
+      m_GuidLow: 5220971617689413603
+      m_GuidHigh: 6106770337496112168
+    m_Size: {x: 0.165, y: 0.2577495}
+    m_SpecifySize: 1
+    m_Name: Addie
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5169850426031559519
+      m_GuidHigh: 7713925226479837340
+    m_SerializedTextureGuid:
+      m_GuidLow: 12796045131597805263
+      m_GuidHigh: 1484577048577873161
+    m_Size: {x: 0.12, y: 0.19109131}
+    m_SpecifySize: 1
+    m_Name: Cafe
+    m_Texture: {fileID: 0}
