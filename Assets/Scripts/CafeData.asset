@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83c05cb55968604f91a106efd9df3c5, type: 3}
+  m_Name: CafeData
+  m_EditorClassIdentifier: 
+  bookID: Cafe
+  bookTitle: Antes de que se enfrie el cafe
+  bookDescription: "Oculta en uno de sus callejones hay una peque\xF1a cafeter\xEDa
+    que merece la pena visitar no solo por su excelente caf\xE9, sino tambi\xE9n
+    porque, si eliges bien la silla donde sentarte, puedes regresar al pasado. Pero
+    como incluso lo incre\xEDble est\xE1 sujeto a limitaciones, no podr\xE1s salir
+    de la cafeter\xEDa mientras dure el viaje, volver\xE1s cuando el caf\xE9 se enfr\xEDe
+    y, hagas lo que hagas, el presente no cambiar\xE1"
+  bookPrefab: {fileID: 4935532199882120249, guid: 100eb28cd68023840973e8d8f915de3c, type: 3}
+  bookIcon: {fileID: 21300000, guid: 0d53191af838b8846b319d3ee59ef219, type: 3}

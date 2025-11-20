@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83c05cb55968604f91a106efd9df3c5, type: 3}
+  m_Name: BibliotecaData
+  m_EditorClassIdentifier: 
+  bookID: Biblioteca
+  bookTitle: La biblioteca de la medianoche
+  bookDescription: "\"Lo que parece magia no es m\xE1s que una parte de la vida que
+    todav\xEDa no entendemos...\"\r"
+  bookPrefab: {fileID: 6059921554763886054, guid: f43f235c28ce7774caba02ac87a3ec31, type: 3}
+  bookIcon: {fileID: 21300000, guid: 45f751cbc4762da458c405beda4095ac, type: 3}

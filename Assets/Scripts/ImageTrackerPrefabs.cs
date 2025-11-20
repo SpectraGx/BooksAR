@@ -59,9 +59,21 @@ public class ImageTrackerPrefabs : MonoBehaviour
 
                 if (prefabCorrect != null)
                 {
+                    /*
                     GameObject newPrefab = Instantiate(prefabCorrect, trackedImage.transform);
 
                     prefabsSpawns.Add(imageName, newPrefab);
+                    */
+
+                    GameObject newPrefab = Instantiate(prefabCorrect, trackedImage.transform);
+                    prefabsSpawns.Add(imageName, newPrefab);
+
+                    if (PlayerPrefs.GetInt(imageName, 0) == 0)
+                    {
+                        PlayerPrefs.SetInt(imageName, 1);
+                        PlayerPrefs.Save();
+                        Debug.Log("Libro desbloqueado: " + imageName);
+                    }
                 }
             }
         }
