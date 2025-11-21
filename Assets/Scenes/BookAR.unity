@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: b075002c5f2dfc342a120b80dac80532, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
+  m_TrackedImagePrefab: {fileID: 8254053044283788968, guid: 008f98ed3cbe357488c204c4cc00f8b7, type: 3}
 --- !u!114 &981457320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1755,7 +1755,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8415ee64991fde54490bffcd3e77d643, type: 2}
   - {fileID: 11400000, guid: 68c895e314c494748944d3d9cefab50c, type: 2}
   contentGrid: {fileID: 1786871905}
-  prefabButtonItem: {fileID: 5526596232386726348, guid: 2fa020c1931d27f4a8133789ca03540f, type: 3}
+  prefabButtonItem: {fileID: 8254053044283788968, guid: 008f98ed3cbe357488c204c4cc00f8b7, type: 3}
   bookDetailsPanel: {fileID: 483513930}
   imageDetail: {fileID: 416411856}
   titleDetail: {fileID: 1075832513}
@@ -1834,7 +1834,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 500, y: 500}
-  m_Spacing: {x: 0, y: 0}
+  m_Spacing: {x: 50, y: 50}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &1786871907
@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}

@@ -18,7 +18,10 @@ public class CollectionItem : MonoBehaviour
         bookData = data;
         collectionManager = manager;
 
-        bool desbloqueado = PlayerPrefs.GetInt(bookData.bookID, 0) == 1;
+        int valorEncontrado = PlayerPrefs.GetInt(bookData.bookID, 0);
+        Debug.Log("Leyendo llave: " + bookData.bookID + " con valor: " + valorEncontrado);
+
+        bool desbloqueado =valorEncontrado == 1;
 
         imageIcon.sprite = bookData.bookIcon;
 

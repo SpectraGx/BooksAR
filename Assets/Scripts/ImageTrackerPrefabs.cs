@@ -72,7 +72,8 @@ public class ImageTrackerPrefabs : MonoBehaviour
                     {
                         PlayerPrefs.SetInt(imageName, 1);
                         PlayerPrefs.Save();
-                        Debug.Log("Libro desbloqueado: " + imageName);
+                        //Debug.Log("Libro desbloqueado: " + imageName);
+                        Debug.Log("Guardando llave: " + imageName + " en PlayerPrefs");
                     }
                 }
             }

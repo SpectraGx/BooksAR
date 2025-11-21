@@ -21,12 +21,30 @@ public class CollectionManager : MonoBehaviour
 
     void Start()
     {
-        GenerationGrid();
+        //GenerationGrid();
         bookDetailsPanel.SetActive(false);
+    }
+
+    private void OnEnable() {
+        GenerationGrid();
     }
 
     public void GenerationGrid()
     {
+        /*
+        foreach (Transform child in contentGrid)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (BookData book in allBooks)
+        {
+            GameObject newItem = Instantiate(prefabButtonItem, contentGrid);
+            CollectionItem itemScript = newItem.GetComponent<CollectionItem>();
+            itemScript.Setup(book, this);
+        }
+        */
+
         foreach (Transform child in contentGrid)
         {
             Destroy(child.gameObject);
